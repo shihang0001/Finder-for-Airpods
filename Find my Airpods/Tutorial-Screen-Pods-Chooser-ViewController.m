@@ -24,6 +24,7 @@
     // Do any additional setup after loading the view.
     
     _airpodsRightYPosition = _airpodsRight.layer.position.y;
+    
     _airpodsLeftYPosition = _airpodsLeft.layer.position.y;
     
     _isLeftPodActive = NO;
