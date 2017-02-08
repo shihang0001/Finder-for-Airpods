@@ -45,26 +45,11 @@
     
     _bleItems = [[NSMutableArray alloc] init];
 
-    
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    //Bluetooth Setup
-
     // Start up the CBCentralManager
     _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil];
     
     // And somewhere to store the incoming data
     _data = [[NSMutableData alloc] init];
-    
-
-
-    
-    
 
 }
 
@@ -120,13 +105,13 @@
 {
     if (central.state != CBCentralManagerStatePoweredOn) {
         // In a real app, you'd deal with all the states correctly
+        
         return;
     }
     
     
     
-    // The state must be CBCentralManagerStatePoweredOn...
-    
+    // The state must be CBCentralManagerStatePoweredOn...=
     // ... so start scanning
     [self scan];
     
@@ -134,70 +119,48 @@
 
 
 
-/** Scan for peripherals - specifically for our service's 128bit CBUUID
- */
+/** 
+    Scan for peripherals
+    The Airpods doesn't have a special UUID we need to scan for. Rather we can scan for all Keys.
+*/
 - (void)scan
 {
-    //[self.centralManager scanForPeripheralsWithServices:@[[CBUUID UUIDWithString:@"180A"]]
-    //                                            options:@{ CBCentralManagerScanOptionAllowDuplicatesKey : @YES }];
     
     NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithBool:NO], CBCentralManagerScanOptionAllowDuplicatesKey, nil];
     
     [self.centralManager scanForPeripheralsWithServices:nil options:options];
     
-    //NSLog(@"%@", [self.centralManager retrieveConnectedPeripheralsWithServices:@[CBUUID UUIDWithString:@"180A"]]);
-    
-    //NSLog(@"Scanning started");
+    NSLog(@"Bluetooth Scanning started");
     
     
 }
 
 
 /** This callback comes whenever a peripheral that is advertising the TRANSFER_SERVICE_UUID is discovered.
- *  We check the RSSI, to make sure it's close enough that we're interested in it, and if it is,
- *  we start the connection process
+
  */
 - (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI
 {
+    //Calculate the RSSI value, then create the offset so we can
+    //represent that on the guage
     
+    //We really dont need this here though.
     
     double dRSSI = [RSSI doubleValue];
-    
     double updatedRSSIValue = 127 - (dRSSI * -1)+15;
     
+    NSLog(@"state %@", peripheral.debugDescription);
     
-    //NSLog(@"state %@", peripheral.debugDescription);
     
     //If the peripheral isnt empty
     if (peripheral.name != NULL)
     {
-
-        
+        //Add the peripheral to the list
         [self addNewBluetoothItem:peripheral.name.lowercaseString uuid:[NSString stringWithFormat:@"%@",peripheral.identifier]];
-        //NSLog(@"Discovered %@ at %@ - updated %f -- UUID %@", peripheral.name, RSSI, updatedRSSIValue, peripheral.debugDescription);
-        //NSLog(@"p data %ld", (long)peripheral.state);
-        
-    }
-
-    if ([peripheral.name.lowercaseString containsString:AIRPODS_ID]){
-        
-
-        
-        
-
-        
-
-        
-        
-        
-    }
-    else
-    {
-
-        
         
     }
     
+    //Start the scan again
     [self scan];
     
     
@@ -213,12 +176,12 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
+
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
+
     return _bleItems.count;
 }
 
