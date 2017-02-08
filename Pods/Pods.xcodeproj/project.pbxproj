@@ -1,0 +1,1165 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060CC5205AC3021495F0C33386CE3AE5 /* Pods-Find my AirpodsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6787390D2F0FDA398467C09768B058 /* Pods-Find my AirpodsUITests-dummy.m */; };
+		073DAAA41F8C40A04644CF2F11DE467C /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F7BB46816E2CF43447CCDD86DFC8EA7 /* POPAnimationTracer.mm */; };
+		0B5297ABC7C9BB506D35CCD37714E9E9 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 36E735B34B0C2BC21DAEB54D28E88983 /* POPAnimatableProperty.mm */; };
+		101822CD30AD84E009B8EB1DFE690108 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F183CC5EEC6CFB2BAA951664CFBEE452 /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1099A9C202DCE0271A401829F33EC10B /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C732F113EC04941A7C9ECB7DCF236A96 /* POPSpringAnimation.mm */; };
+		11AFE115889246BD52DE330983631321 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = F9C57217334DCA6E626E35B7F9E06742 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		135CF2281C02C0467EFCAFC56E201553 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BAC6706BA81EBCA6A9E6C2E0334E3D /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13A86C44FA59595D227A4624FCCDF069 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9EBEB0EE2DDC0EDBF3293D6CEB030A5A /* POPPropertyAnimation.mm */; };
+		142F6B913CA346BC303CD909E1A9BA39 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C71886C2BF63B67198BD3FB0D21ADEF1 /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		146EBE25A33A8966E5441379D901663A /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A332E9B90A22CAB5DDDDCD63CDE675A /* POPLayerExtras.mm */; };
+		17158B3B637398CC88F006A954D54A63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1A7192F61ABB9DD4F2E639B6F2662469 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EA4C903F44D7333C14AAE6E6FB55BF /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8F2C1D70934D1DB01E8D1B37CA17B1 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = F1CFF6EB7BD979F6E93FF44404E28009 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B1971AF18CE1BA08F03AFFEA658C174 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 136ADE3F38CF8A8C5C0245B19896CD90 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2383D0D13C9C65CF72B4921EACD4BD7F /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 98550FED03C6FEAA06D9FD2D9336A192 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		247AF8EBDCD5E3194C39B1ACE202CD8B /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 11C322D82A4FD107B333F93C73379B7D /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		28E182B82E4701018C36E0D96C40685A /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C5B3F9C4D6A56BEB8F975A744D69DB /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29F034563B883A83DDEAC1D973E52996 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F1FF99AD88C55C1846BD3F7697FA42 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A068591CB3B49AAA481A70EDB0B85D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2BDCE46828B7CBC542B0D4DFF184D2AC /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = E24FA49C2F6BCF285D4B695F2ECCE78D /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C2B759E05208EA227FB2A52C6143F3D /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEA76FC88698A040A4976F66A2CCED9 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D43CDF900165DB61B3CDE69FE36445C /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DCC3DEE91C1464E92114817F6F2EB5 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		38556388A40E40549BBF37BDB4BE30B3 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 350601E45D36B2CF21C008281153EC54 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA9B6C5B06A9BE4EF40C03D90040E35 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7603E81423CD34220353AB05F20C88E6 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3E2E2C59B7C572B62CDD51E2157A28F5 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 277BC8F227098CDF90540F3380E386A9 /* POPAnimationRuntime.mm */; };
+		3F438C6D210F2ED4F34814B554CA565D /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = C23EE542B6751F16D4DE97457C2B9858 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		442BFA72F9A3377A4BA8E781B8DAB907 /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3DABDA0E10BAF675753AE138632F0F /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46BD5613DD52E6F76C081F2691C2263E /* Pods-Find my AirpodsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B74F7BF98825BEB69FD4A4E4BACFEA /* Pods-Find my AirpodsTests-dummy.m */; };
+		4C94BE82DCFE06C7CDB32D444457E35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		51DFCE5DD7C875C7060DF5EC60175419 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 767A27E8BC7590B98A5BB1851AAFBD03 /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D5E9F18835B7A7C007F941FCBC4F30A /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5153D702DD16A5380F03E8D820FEAB10 /* TransformationMatrix.cpp */; };
+		5F853FD0C98002F44DD57C128F2606AC /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 498F4BE801191B9E518615C7175B1F06 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602ABB6A6E3D2B8034C71C85F32B40DE /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2861CDFB462DCE36E8DC8CFE9C3B36BA /* MBCircularProgressBarView.m */; };
+		613DBEE108883271505C29861EF14DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6650E91F354A045015F0929E5F6910EC /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 112CBD59C8B20D1629965AFA810155D5 /* POPAnimationEvent.mm */; };
+		6A3F7DB7AC5CC4274C04353F4DA1264A /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1878897379A2DB0A2C8E0A6161664880 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B9CF4DB9A519785C45A8B58E7B87B85 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0DFD32302FA938AEBD458709F9996E7 /* POPAnimationExtras.mm */; };
+		722B212B350201CCE2801F87E83AE055 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F07F0C3B2384BBD248AAA0CB132A00D /* pop-dummy.m */; };
+		753CBB7763B3957DD17AE45E80C51234 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C883BE784484C3EDDBCC8B987CF790B1 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A350C658B77CF4C959FD7188C4B3D93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		823D0A7EA15FE41EE49E5BF1A71BB89D /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA10DFDCE94D241D86F85F52FB4860C /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84ECFB05A20D45195A2A7FDC25BC358F /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CE5603EC5E44310D7E4CE2F60BD4DDE /* POPBasicAnimation.mm */; };
+		9011E66CFED1D7C339EFF22D4FD40C1E /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A9514383558741E31AD40A27D3EDEBE /* POPGeometry.mm */; };
+		9F4CE01AEB93E5AE79BA6D8F96034708 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FD7AA8970B75EAB9023BDCA2391037 /* MBCircularProgressBarLayer.m */; };
+		9FA7F4814574B6FD32BD9DA0F9697844 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4365537354EE5470259AA387B6C754 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A052A5E11042F1D3772C89648B93D9 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A787C8E8BB96644F3BB684AA618F75F /* MBCircularProgressBar-dummy.m */; };
+		A800C88914CD78D78705C35F177EB03E /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFCD7C52E4A4D67E4BBD19945507CA1 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAFB70F1FAC2A3E7C58B2A9E579DEECB /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 8327DBB9E9C02B738C4809E5D6367916 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0966CE2331C40034D21687B47503875 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 238E7D7235B010CD15AA531744156A9A /* POPCGUtils.mm */; };
+		B1E764D905DE986AC262EF04420B9D92 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F328A736DC4694D347B9E068AE0E092 /* POPVector.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2179B946F2096C6DE1FCD2ECC7550D1 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D39143B797EAB28C14EB4DEB0FF04AE /* POPAnimation.mm */; };
+		B2E41E7E3C18E60B467928386AA4DF38 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EBE9137EFE360CB38EBD3707CFD4C0 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF364359017F7FAC15AED3E566A1EB5C /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8DFA5759F68EF9C1778F56A910E153A7 /* POPAnimator.mm */; };
+		BF3F9BC2784F920B51D1CE48FB73921F /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8325F5E4BE724F652DC4FAEC4D8E783 /* POPDecayAnimation.mm */; };
+		BFD4A56DE9D99566175A8B7908FE32A8 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DDC903172BAA71061CBE71954DA4BF /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF67294BAA0499F221BD96A2834CEEA /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 41EA69F613D729AC1CF04A0CED5C7B54 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C260F58E89921D6D0A012DE3A4017F74 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7533A7701F8388B5F6140C0A5994862 /* POPMath.mm */; };
+		C50C8CB44D4FBC6B7C9CA2126E1F38E6 /* Pods-Find my Airpods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5146032EFD9E6D226AD32F44BB46A3 /* Pods-Find my Airpods-dummy.m */; };
+		CE6401C20FF361F4E5FE82E5C033C0E5 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = C68E5834ECA77071767B5570FE422166 /* example.png */; };
+		CEAA1E84878C42B660108C61BB5EF858 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDE510EFC480F9668DAAB43C9BAB21B6 /* POPCustomAnimation.mm */; };
+		CED8BACC30F59E92A0C6778C51C71099 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A8D8071778DF6F7D77E74D1870B249 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09A9EE392F08ABDA2B359EA9086C226 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5D6AC39D025BCD5C39E509A9653D3 /* POPVector.mm */; };
+		EC9AFE0DFBC29038F7126BC1F14729DD /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE024275F29087973681D14685ACE11 /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED0AC133BC6687E4AD8CDA7AA56064B9 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 940C68D5A7474E7F298272553C44C900 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F923C9536201A1A4D19ADD2D6C9CC0E3 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC59B4222D18C0A1D3B211AB3CDE8E7 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD9DD8BBFF3ED0531E292FC14BB9A019 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 72626BD71DD18BD3E1BFA41FF486D07A /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301890201E5281E3D95BC19082E03F3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFAB03C06CBAB2916F232BD071C0600;
+			remoteInfo = pop;
+		};
+		378B7D90E149083ABF3C2AB176B020DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8887782A89B377CA7620F79CD6A95097;
+			remoteInfo = MBCircularProgressBar;
+		};
+		5EBDE2225CA8193B0FB850FC795150D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058D9CEA25394CA8571C15F53662E5B1;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044A7AA409AFD2E8404AAD0FD77C0771 /* libPods-Find my AirpodsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Find my AirpodsTests.a"; path = "libPods-Find my AirpodsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DDC903172BAA71061CBE71954DA4BF /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		0A787C8E8BB96644F3BB684AA618F75F /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		0B4365537354EE5470259AA387B6C754 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		0C29DB672E9F8073BBCDF12067176EA1 /* libPods-Find my AirpodsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Find my AirpodsUITests.a"; path = "libPods-Find my AirpodsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		112CBD59C8B20D1629965AFA810155D5 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		11C322D82A4FD107B333F93C73379B7D /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		136ADE3F38CF8A8C5C0245B19896CD90 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		1878897379A2DB0A2C8E0A6161664880 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		1D39143B797EAB28C14EB4DEB0FF04AE /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		1FEA76FC88698A040A4976F66A2CCED9 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		21A093F449532650E68D3A0585A2A704 /* Pods-Find my Airpods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Find my Airpods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		238E7D7235B010CD15AA531744156A9A /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		24AF3D6101F05F4609246ACC30A3D4BF /* Pods-Find my AirpodsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Find my AirpodsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24B9294E9AEE0AD2951CFD95CC07F6CE /* Pods-Find my AirpodsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Find my AirpodsTests-resources.sh"; sourceTree = "<group>"; };
+		2518D72F203C3F102376B796A9FE4964 /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libpop.a; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2568C636F52BF6AE828E6C19C60F4F47 /* Pods-Find my AirpodsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Find my AirpodsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		26B81E0FB1255D79F6E9CA02A6EAFF85 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		277BC8F227098CDF90540F3380E386A9 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		2861CDFB462DCE36E8DC8CFE9C3B36BA /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		30A8D8071778DF6F7D77E74D1870B249 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		350601E45D36B2CF21C008281153EC54 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		36E735B34B0C2BC21DAEB54D28E88983 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		36FD7AA8970B75EAB9023BDCA2391037 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		38C5AC87BAB202A6BB202571F06BD62A /* MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.xcconfig; sourceTree = "<group>"; };
+		3C105D22C41B0A8178D27D3EDB91BCE6 /* Pods-Find my AirpodsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Find my AirpodsTests-frameworks.sh"; sourceTree = "<group>"; };
+		3CE5603EC5E44310D7E4CE2F60BD4DDE /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		3EC59B4222D18C0A1D3B211AB3CDE8E7 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		3F328A736DC4694D347B9E068AE0E092 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		41EA69F613D729AC1CF04A0CED5C7B54 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		46D6C3B717D1EB05D5BD9F18E5933C4E /* Pods-Find my AirpodsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Find my AirpodsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4756326417CC5767E57B88BDE236AC61 /* Pods-Find my Airpods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Find my Airpods.debug.xcconfig"; sourceTree = "<group>"; };
+		48BAC6706BA81EBCA6A9E6C2E0334E3D /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		498F4BE801191B9E518615C7175B1F06 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		49AF6B9851D4C54BB1912348C38DB882 /* libPods-Find my Airpods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Find my Airpods.a"; path = "libPods-Find my Airpods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A332E9B90A22CAB5DDDDCD63CDE675A /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		4BEDEC92F13741FF2A1C5AC3717FD665 /* Pods-Find my AirpodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Find my AirpodsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BFCD7C52E4A4D67E4BBD19945507CA1 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		4F07F0C3B2384BBD248AAA0CB132A00D /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		4F7BB46816E2CF43447CCDD86DFC8EA7 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		510568CA08268FB9FDF8B286DE95681F /* Pods-Find my Airpods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Find my Airpods.release.xcconfig"; sourceTree = "<group>"; };
+		5153D702DD16A5380F03E8D820FEAB10 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		56EBE9137EFE360CB38EBD3707CFD4C0 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		664B55911C589F9827B3A10EF46C7300 /* Pods-Find my Airpods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Find my Airpods-frameworks.sh"; sourceTree = "<group>"; };
+		66DCC3DEE91C1464E92114817F6F2EB5 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		6DA10DFDCE94D241D86F85F52FB4860C /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		71B6E99F2BDA55049978DFD3DFED1F45 /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		72626BD71DD18BD3E1BFA41FF486D07A /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		7603E81423CD34220353AB05F20C88E6 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		767A27E8BC7590B98A5BB1851AAFBD03 /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		823CD4A81B19F549F0B6A09CF772A736 /* Pods-Find my AirpodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Find my AirpodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8327DBB9E9C02B738C4809E5D6367916 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		87906EC73DF42DBB7CB9F4A8455C9446 /* Pods-Find my AirpodsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Find my AirpodsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A9514383558741E31AD40A27D3EDEBE /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		8DFA5759F68EF9C1778F56A910E153A7 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940C68D5A7474E7F298272553C44C900 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		9632F398B618EA774DD0DED18C4A685D /* Pods-Find my Airpods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Find my Airpods-acknowledgements.plist"; sourceTree = "<group>"; };
+		974AEDFC7C77CFD0A4E1486A2E8962B4 /* Pods-Find my Airpods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Find my Airpods-resources.sh"; sourceTree = "<group>"; };
+		98550FED03C6FEAA06D9FD2D9336A192 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		9CE024275F29087973681D14685ACE11 /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		9EBEB0EE2DDC0EDBF3293D6CEB030A5A /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		9ED5D6AC39D025BCD5C39E509A9653D3 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		A0F1FF99AD88C55C1846BD3F7697FA42 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		AE5146032EFD9E6D226AD32F44BB46A3 /* Pods-Find my Airpods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Find my Airpods-dummy.m"; sourceTree = "<group>"; };
+		AF29ADD0ECB9506266634B7918D0E57E /* Pods-Find my AirpodsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Find my AirpodsUITests-resources.sh"; sourceTree = "<group>"; };
+		B0DFD32302FA938AEBD458709F9996E7 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		B1C5B3F9C4D6A56BEB8F975A744D69DB /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		B7E5BE186D87060D757ED3D53223DE32 /* Pods-Find my AirpodsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Find my AirpodsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C23EE542B6751F16D4DE97457C2B9858 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		C68E5834ECA77071767B5570FE422166 /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		C71886C2BF63B67198BD3FB0D21ADEF1 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		C732F113EC04941A7C9ECB7DCF236A96 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		C7533A7701F8388B5F6140C0A5994862 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		C7EA4C903F44D7333C14AAE6E6FB55BF /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		C8325F5E4BE724F652DC4FAEC4D8E783 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		C883BE784484C3EDDBCC8B987CF790B1 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		C96739D8DD545B23DFD0777843A06A37 /* libMBCircularProgressBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBCircularProgressBar.a; path = libMBCircularProgressBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCFED5AA08323601FE6B08CC12220773 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		D6C771743A20477765B04EA265298F46 /* ResourceBundle-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		D9186BFD858A506F8DC51488624041D9 /* Pods-Find my AirpodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Find my AirpodsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD6787390D2F0FDA398467C09768B058 /* Pods-Find my AirpodsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Find my AirpodsUITests-dummy.m"; sourceTree = "<group>"; };
+		DE9976F2621820EC0CE61485C231D4B6 /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MBCircularProgressBar.bundle; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24FA49C2F6BCF285D4B695F2ECCE78D /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		ED3DABDA0E10BAF675753AE138632F0F /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		F183CC5EEC6CFB2BAA951664CFBEE452 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		F1CFF6EB7BD979F6E93FF44404E28009 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		F53D400D44FCC0073A1505B14122946A /* Pods-Find my AirpodsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Find my AirpodsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8B74F7BF98825BEB69FD4A4E4BACFEA /* Pods-Find my AirpodsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Find my AirpodsTests-dummy.m"; sourceTree = "<group>"; };
+		F9C57217334DCA6E626E35B7F9E06742 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		FDE510EFC480F9668DAAB43C9BAB21B6 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB8AD8476412662D490C22216426FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				613DBEE108883271505C29861EF14DD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E53B00E2E26292E946DBC181BB975F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17158B3B637398CC88F006A954D54A63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD724D4DF125CD4B555C85CA2D2F1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A350C658B77CF4C959FD7188C4B3D93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8480A8575831886474D2A8BC1271B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F7D8B677EB9B9405EF4461E3442FA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C94BE82DCFE06C7CDB32D444457E35D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFA0880F55E7AD652295046F4C77140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A068591CB3B49AAA481A70EDB0B85D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C0A004F94816D18E191950A8192DFE3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C5AC87BAB202A6BB202571F06BD62A /* MBCircularProgressBar.xcconfig */,
+				0A787C8E8BB96644F3BB684AA618F75F /* MBCircularProgressBar-dummy.m */,
+				71B6E99F2BDA55049978DFD3DFED1F45 /* MBCircularProgressBar-prefix.pch */,
+				D6C771743A20477765B04EA265298F46 /* ResourceBundle-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		1C0746E3E6AD7E322473054482F35B11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE96E029C7AF5B9A9B4A947F32A9A3 /* Pods-Find my Airpods */,
+				BB3039AA6C7F8E806DDD3FD16B4BC845 /* Pods-Find my AirpodsTests */,
+				F14FF8FC104B9DE0A65AAE0E14A3740C /* Pods-Find my AirpodsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		408198EEE458FBCE2BE1144357C8B904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C96739D8DD545B23DFD0777843A06A37 /* libMBCircularProgressBar.a */,
+				49AF6B9851D4C54BB1912348C38DB882 /* libPods-Find my Airpods.a */,
+				044A7AA409AFD2E8404AAD0FD77C0771 /* libPods-Find my AirpodsTests.a */,
+				0C29DB672E9F8073BBCDF12067176EA1 /* libPods-Find my AirpodsUITests.a */,
+				2518D72F203C3F102376B796A9FE4964 /* libpop.a */,
+				DE9976F2621820EC0CE61485C231D4B6 /* MBCircularProgressBar.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52759722B4E2532553CFCC761C7B959A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFED5AA08323601FE6B08CC12220773 /* pop.xcconfig */,
+				4F07F0C3B2384BBD248AAA0CB132A00D /* pop-dummy.m */,
+				26B81E0FB1255D79F6E9CA02A6EAFF85 /* pop-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6C9A787618B827D366788D93649C894 /* Pods */,
+				408198EEE458FBCE2BE1144357C8B904 /* Products */,
+				1C0746E3E6AD7E322473054482F35B11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8782140C09E74DD2153486BC239BA86B /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				98550FED03C6FEAA06D9FD2D9336A192 /* FloatConversion.h */,
+				8327DBB9E9C02B738C4809E5D6367916 /* POP.h */,
+				940C68D5A7474E7F298272553C44C900 /* POPAction.h */,
+				30A8D8071778DF6F7D77E74D1870B249 /* POPAnimatableProperty.h */,
+				36E735B34B0C2BC21DAEB54D28E88983 /* POPAnimatableProperty.mm */,
+				A0F1FF99AD88C55C1846BD3F7697FA42 /* POPAnimation.h */,
+				1D39143B797EAB28C14EB4DEB0FF04AE /* POPAnimation.mm */,
+				1878897379A2DB0A2C8E0A6161664880 /* POPAnimationEvent.h */,
+				112CBD59C8B20D1629965AFA810155D5 /* POPAnimationEvent.mm */,
+				41EA69F613D729AC1CF04A0CED5C7B54 /* POPAnimationEventInternal.h */,
+				06DDC903172BAA71061CBE71954DA4BF /* POPAnimationExtras.h */,
+				B0DFD32302FA938AEBD458709F9996E7 /* POPAnimationExtras.mm */,
+				66DCC3DEE91C1464E92114817F6F2EB5 /* POPAnimationInternal.h */,
+				767A27E8BC7590B98A5BB1851AAFBD03 /* POPAnimationPrivate.h */,
+				6DA10DFDCE94D241D86F85F52FB4860C /* POPAnimationRuntime.h */,
+				277BC8F227098CDF90540F3380E386A9 /* POPAnimationRuntime.mm */,
+				498F4BE801191B9E518615C7175B1F06 /* POPAnimationTracer.h */,
+				4F7BB46816E2CF43447CCDD86DFC8EA7 /* POPAnimationTracer.mm */,
+				F1CFF6EB7BD979F6E93FF44404E28009 /* POPAnimationTracerInternal.h */,
+				E24FA49C2F6BCF285D4B695F2ECCE78D /* POPAnimator.h */,
+				8DFA5759F68EF9C1778F56A910E153A7 /* POPAnimator.mm */,
+				72626BD71DD18BD3E1BFA41FF486D07A /* POPAnimatorPrivate.h */,
+				C883BE784484C3EDDBCC8B987CF790B1 /* POPBasicAnimation.h */,
+				3CE5603EC5E44310D7E4CE2F60BD4DDE /* POPBasicAnimation.mm */,
+				ED3DABDA0E10BAF675753AE138632F0F /* POPBasicAnimationInternal.h */,
+				1FEA76FC88698A040A4976F66A2CCED9 /* POPCGUtils.h */,
+				238E7D7235B010CD15AA531744156A9A /* POPCGUtils.mm */,
+				C7EA4C903F44D7333C14AAE6E6FB55BF /* POPCustomAnimation.h */,
+				FDE510EFC480F9668DAAB43C9BAB21B6 /* POPCustomAnimation.mm */,
+				136ADE3F38CF8A8C5C0245B19896CD90 /* POPDecayAnimation.h */,
+				C8325F5E4BE724F652DC4FAEC4D8E783 /* POPDecayAnimation.mm */,
+				7603E81423CD34220353AB05F20C88E6 /* POPDecayAnimationInternal.h */,
+				F183CC5EEC6CFB2BAA951664CFBEE452 /* POPDefines.h */,
+				0B4365537354EE5470259AA387B6C754 /* POPGeometry.h */,
+				8A9514383558741E31AD40A27D3EDEBE /* POPGeometry.mm */,
+				56EBE9137EFE360CB38EBD3707CFD4C0 /* POPLayerExtras.h */,
+				4A332E9B90A22CAB5DDDDCD63CDE675A /* POPLayerExtras.mm */,
+				F9C57217334DCA6E626E35B7F9E06742 /* POPMath.h */,
+				C7533A7701F8388B5F6140C0A5994862 /* POPMath.mm */,
+				350601E45D36B2CF21C008281153EC54 /* POPPropertyAnimation.h */,
+				9EBEB0EE2DDC0EDBF3293D6CEB030A5A /* POPPropertyAnimation.mm */,
+				9CE024275F29087973681D14685ACE11 /* POPPropertyAnimationInternal.h */,
+				4BFCD7C52E4A4D67E4BBD19945507CA1 /* POPSpringAnimation.h */,
+				C732F113EC04941A7C9ECB7DCF236A96 /* POPSpringAnimation.mm */,
+				B1C5B3F9C4D6A56BEB8F975A744D69DB /* POPSpringAnimationInternal.h */,
+				11C322D82A4FD107B333F93C73379B7D /* POPSpringSolver.h */,
+				3F328A736DC4694D347B9E068AE0E092 /* POPVector.h */,
+				9ED5D6AC39D025BCD5C39E509A9653D3 /* POPVector.mm */,
+				5153D702DD16A5380F03E8D820FEAB10 /* TransformationMatrix.cpp */,
+				3EC59B4222D18C0A1D3B211AB3CDE8E7 /* TransformationMatrix.h */,
+				48BAC6706BA81EBCA6A9E6C2E0334E3D /* UnitBezier.h */,
+				52759722B4E2532553CFCC761C7B959A /* Support Files */,
+			);
+			name = pop;
+			path = pop;
+			sourceTree = "<group>";
+		};
+		BB3039AA6C7F8E806DDD3FD16B4BC845 /* Pods-Find my AirpodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F53D400D44FCC0073A1505B14122946A /* Pods-Find my AirpodsTests-acknowledgements.markdown */,
+				87906EC73DF42DBB7CB9F4A8455C9446 /* Pods-Find my AirpodsTests-acknowledgements.plist */,
+				F8B74F7BF98825BEB69FD4A4E4BACFEA /* Pods-Find my AirpodsTests-dummy.m */,
+				3C105D22C41B0A8178D27D3EDB91BCE6 /* Pods-Find my AirpodsTests-frameworks.sh */,
+				24B9294E9AEE0AD2951CFD95CC07F6CE /* Pods-Find my AirpodsTests-resources.sh */,
+				4BEDEC92F13741FF2A1C5AC3717FD665 /* Pods-Find my AirpodsTests.debug.xcconfig */,
+				D9186BFD858A506F8DC51488624041D9 /* Pods-Find my AirpodsTests.release.xcconfig */,
+			);
+			name = "Pods-Find my AirpodsTests";
+			path = "Target Support Files/Pods-Find my AirpodsTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6C9A787618B827D366788D93649C894 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E162D54D7C9DD1EDFA06D7E43CC23055 /* MBCircularProgressBar */,
+				8782140C09E74DD2153486BC239BA86B /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C926066147D6D22436CCC2B77A28C657 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C68E5834ECA77071767B5570FE422166 /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D8CE96E029C7AF5B9A9B4A947F32A9A3 /* Pods-Find my Airpods */ = {
+			isa = PBXGroup;
+			children = (
+				21A093F449532650E68D3A0585A2A704 /* Pods-Find my Airpods-acknowledgements.markdown */,
+				9632F398B618EA774DD0DED18C4A685D /* Pods-Find my Airpods-acknowledgements.plist */,
+				AE5146032EFD9E6D226AD32F44BB46A3 /* Pods-Find my Airpods-dummy.m */,
+				664B55911C589F9827B3A10EF46C7300 /* Pods-Find my Airpods-frameworks.sh */,
+				974AEDFC7C77CFD0A4E1486A2E8962B4 /* Pods-Find my Airpods-resources.sh */,
+				4756326417CC5767E57B88BDE236AC61 /* Pods-Find my Airpods.debug.xcconfig */,
+				510568CA08268FB9FDF8B286DE95681F /* Pods-Find my Airpods.release.xcconfig */,
+			);
+			name = "Pods-Find my Airpods";
+			path = "Target Support Files/Pods-Find my Airpods";
+			sourceTree = "<group>";
+		};
+		E162D54D7C9DD1EDFA06D7E43CC23055 /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				C71886C2BF63B67198BD3FB0D21ADEF1 /* MBCircularProgressBarLayer.h */,
+				36FD7AA8970B75EAB9023BDCA2391037 /* MBCircularProgressBarLayer.m */,
+				C23EE542B6751F16D4DE97457C2B9858 /* MBCircularProgressBarView.h */,
+				2861CDFB462DCE36E8DC8CFE9C3B36BA /* MBCircularProgressBarView.m */,
+				C926066147D6D22436CCC2B77A28C657 /* Resources */,
+				0C0A004F94816D18E191950A8192DFE3 /* Support Files */,
+			);
+			name = MBCircularProgressBar;
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		F14FF8FC104B9DE0A65AAE0E14A3740C /* Pods-Find my AirpodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D6C3B717D1EB05D5BD9F18E5933C4E /* Pods-Find my AirpodsUITests-acknowledgements.markdown */,
+				2568C636F52BF6AE828E6C19C60F4F47 /* Pods-Find my AirpodsUITests-acknowledgements.plist */,
+				DD6787390D2F0FDA398467C09768B058 /* Pods-Find my AirpodsUITests-dummy.m */,
+				B7E5BE186D87060D757ED3D53223DE32 /* Pods-Find my AirpodsUITests-frameworks.sh */,
+				AF29ADD0ECB9506266634B7918D0E57E /* Pods-Find my AirpodsUITests-resources.sh */,
+				24AF3D6101F05F4609246ACC30A3D4BF /* Pods-Find my AirpodsUITests.debug.xcconfig */,
+				823CD4A81B19F549F0B6A09CF772A736 /* Pods-Find my AirpodsUITests.release.xcconfig */,
+			);
+			name = "Pods-Find my AirpodsUITests";
+			path = "Target Support Files/Pods-Find my AirpodsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C1A902D5C606E26323B9827AA51875B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142F6B913CA346BC303CD909E1A9BA39 /* MBCircularProgressBarLayer.h in Headers */,
+				3F438C6D210F2ED4F34814B554CA565D /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3945388CD64CEB234E95E64C63B69AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2383D0D13C9C65CF72B4921EACD4BD7F /* FloatConversion.h in Headers */,
+				AAFB70F1FAC2A3E7C58B2A9E579DEECB /* POP.h in Headers */,
+				ED0AC133BC6687E4AD8CDA7AA56064B9 /* POPAction.h in Headers */,
+				CED8BACC30F59E92A0C6778C51C71099 /* POPAnimatableProperty.h in Headers */,
+				29F034563B883A83DDEAC1D973E52996 /* POPAnimation.h in Headers */,
+				6A3F7DB7AC5CC4274C04353F4DA1264A /* POPAnimationEvent.h in Headers */,
+				BFF67294BAA0499F221BD96A2834CEEA /* POPAnimationEventInternal.h in Headers */,
+				BFD4A56DE9D99566175A8B7908FE32A8 /* POPAnimationExtras.h in Headers */,
+				2D43CDF900165DB61B3CDE69FE36445C /* POPAnimationInternal.h in Headers */,
+				51DFCE5DD7C875C7060DF5EC60175419 /* POPAnimationPrivate.h in Headers */,
+				823D0A7EA15FE41EE49E5BF1A71BB89D /* POPAnimationRuntime.h in Headers */,
+				5F853FD0C98002F44DD57C128F2606AC /* POPAnimationTracer.h in Headers */,
+				1A8F2C1D70934D1DB01E8D1B37CA17B1 /* POPAnimationTracerInternal.h in Headers */,
+				2BDCE46828B7CBC542B0D4DFF184D2AC /* POPAnimator.h in Headers */,
+				FD9DD8BBFF3ED0531E292FC14BB9A019 /* POPAnimatorPrivate.h in Headers */,
+				753CBB7763B3957DD17AE45E80C51234 /* POPBasicAnimation.h in Headers */,
+				442BFA72F9A3377A4BA8E781B8DAB907 /* POPBasicAnimationInternal.h in Headers */,
+				2C2B759E05208EA227FB2A52C6143F3D /* POPCGUtils.h in Headers */,
+				1A7192F61ABB9DD4F2E639B6F2662469 /* POPCustomAnimation.h in Headers */,
+				1B1971AF18CE1BA08F03AFFEA658C174 /* POPDecayAnimation.h in Headers */,
+				3BA9B6C5B06A9BE4EF40C03D90040E35 /* POPDecayAnimationInternal.h in Headers */,
+				101822CD30AD84E009B8EB1DFE690108 /* POPDefines.h in Headers */,
+				9FA7F4814574B6FD32BD9DA0F9697844 /* POPGeometry.h in Headers */,
+				B2E41E7E3C18E60B467928386AA4DF38 /* POPLayerExtras.h in Headers */,
+				11AFE115889246BD52DE330983631321 /* POPMath.h in Headers */,
+				38556388A40E40549BBF37BDB4BE30B3 /* POPPropertyAnimation.h in Headers */,
+				EC9AFE0DFBC29038F7126BC1F14729DD /* POPPropertyAnimationInternal.h in Headers */,
+				A800C88914CD78D78705C35F177EB03E /* POPSpringAnimation.h in Headers */,
+				28E182B82E4701018C36E0D96C40685A /* POPSpringAnimationInternal.h in Headers */,
+				247AF8EBDCD5E3194C39B1ACE202CD8B /* POPSpringSolver.h in Headers */,
+				B1E764D905DE986AC262EF04420B9D92 /* POPVector.h in Headers */,
+				F923C9536201A1A4D19ADD2D6C9CC0E3 /* TransformationMatrix.h in Headers */,
+				135CF2281C02C0467EFCAFC56E201553 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		058D9CEA25394CA8571C15F53662E5B1 /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABE8C26B866F8D5F351A2FF72FDF6A1 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				60A9FA1086B9C124EA2355EDB83EEE48 /* Sources */,
+				A8480A8575831886474D2A8BC1271B1C /* Frameworks */,
+				4067ADFF5BD2083D02824F3C91430AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = "MBCircularProgressBar-MBCircularProgressBar";
+			productReference = DE9976F2621820EC0CE61485C231D4B6 /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8887782A89B377CA7620F79CD6A95097 /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA71027D8B19A4E2E400D761741A67B /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				BB82F1BF51BF184CFBB1A776D08DCCBF /* Sources */,
+				2DB8AD8476412662D490C22216426FA7 /* Frameworks */,
+				6C1A902D5C606E26323B9827AA51875B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11653DC842058FA136A388E710D9DD6F /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = C96739D8DD545B23DFD0777843A06A37 /* libMBCircularProgressBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		88D08EEBCEABBDA3DDA2D2F105FB3291 /* Pods-Find my AirpodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54C70AB7516FCDC5E382B7C1F7D694E /* Build configuration list for PBXNativeTarget "Pods-Find my AirpodsTests" */;
+			buildPhases = (
+				ED0019EF32B9DEEA6238D774D2E2A4BF /* Sources */,
+				C6F7D8B677EB9B9405EF4461E3442FA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Find my AirpodsTests";
+			productName = "Pods-Find my AirpodsTests";
+			productReference = 044A7AA409AFD2E8404AAD0FD77C0771 /* libPods-Find my AirpodsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AAFAB03C06CBAB2916F232BD071C0600 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD9B227E42EBAC0B8CFC33D83EEEFA5 /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				63EACAD8610E3368004095FAED1CF6FB /* Sources */,
+				8FD724D4DF125CD4B555C85CA2D2F1D0 /* Frameworks */,
+				B3945388CD64CEB234E95E64C63B69AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 2518D72F203C3F102376B796A9FE4964 /* libpop.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BB918A813B1A116DBDC529D9878DDD7A /* Pods-Find my Airpods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9F462629C203CA4E09B7146C94FE6C /* Build configuration list for PBXNativeTarget "Pods-Find my Airpods" */;
+			buildPhases = (
+				E1495FC9E22A692005A9F38B9F941C7E /* Sources */,
+				EEFA0880F55E7AD652295046F4C77140 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				549A4CA8D7A3F25C7251D4E5E3A340BA /* PBXTargetDependency */,
+				AD99E4D5AE9FC7A114576F5AE0ACC6C1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Find my Airpods";
+			productName = "Pods-Find my Airpods";
+			productReference = 49AF6B9851D4C54BB1912348C38DB882 /* libPods-Find my Airpods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB44DF201BD7BFD27AF52A44E024B3E2 /* Pods-Find my AirpodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8489FA33274580828E0FA3BBE69031 /* Build configuration list for PBXNativeTarget "Pods-Find my AirpodsUITests" */;
+			buildPhases = (
+				CBF9E1FBF5D49CC3C19AD57AF0AFDAEB /* Sources */,
+				8E53B00E2E26292E946DBC181BB975F6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Find my AirpodsUITests";
+			productName = "Pods-Find my AirpodsUITests";
+			productReference = 0C29DB672E9F8073BBCDF12067176EA1 /* libPods-Find my AirpodsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 408198EEE458FBCE2BE1144357C8B904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8887782A89B377CA7620F79CD6A95097 /* MBCircularProgressBar */,
+				058D9CEA25394CA8571C15F53662E5B1 /* MBCircularProgressBar-MBCircularProgressBar */,
+				BB918A813B1A116DBDC529D9878DDD7A /* Pods-Find my Airpods */,
+				88D08EEBCEABBDA3DDA2D2F105FB3291 /* Pods-Find my AirpodsTests */,
+				CB44DF201BD7BFD27AF52A44E024B3E2 /* Pods-Find my AirpodsUITests */,
+				AAFAB03C06CBAB2916F232BD071C0600 /* pop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4067ADFF5BD2083D02824F3C91430AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6401C20FF361F4E5FE82E5C033C0E5 /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60A9FA1086B9C124EA2355EDB83EEE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EACAD8610E3368004095FAED1CF6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722B212B350201CCE2801F87E83AE055 /* pop-dummy.m in Sources */,
+				0B5297ABC7C9BB506D35CCD37714E9E9 /* POPAnimatableProperty.mm in Sources */,
+				B2179B946F2096C6DE1FCD2ECC7550D1 /* POPAnimation.mm in Sources */,
+				6650E91F354A045015F0929E5F6910EC /* POPAnimationEvent.mm in Sources */,
+				6B9CF4DB9A519785C45A8B58E7B87B85 /* POPAnimationExtras.mm in Sources */,
+				3E2E2C59B7C572B62CDD51E2157A28F5 /* POPAnimationRuntime.mm in Sources */,
+				073DAAA41F8C40A04644CF2F11DE467C /* POPAnimationTracer.mm in Sources */,
+				BF364359017F7FAC15AED3E566A1EB5C /* POPAnimator.mm in Sources */,
+				84ECFB05A20D45195A2A7FDC25BC358F /* POPBasicAnimation.mm in Sources */,
+				B0966CE2331C40034D21687B47503875 /* POPCGUtils.mm in Sources */,
+				CEAA1E84878C42B660108C61BB5EF858 /* POPCustomAnimation.mm in Sources */,
+				BF3F9BC2784F920B51D1CE48FB73921F /* POPDecayAnimation.mm in Sources */,
+				9011E66CFED1D7C339EFF22D4FD40C1E /* POPGeometry.mm in Sources */,
+				146EBE25A33A8966E5441379D901663A /* POPLayerExtras.mm in Sources */,
+				C260F58E89921D6D0A012DE3A4017F74 /* POPMath.mm in Sources */,
+				13A86C44FA59595D227A4624FCCDF069 /* POPPropertyAnimation.mm in Sources */,
+				1099A9C202DCE0271A401829F33EC10B /* POPSpringAnimation.mm in Sources */,
+				E09A9EE392F08ABDA2B359EA9086C226 /* POPVector.mm in Sources */,
+				5D5E9F18835B7A7C007F941FCBC4F30A /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB82F1BF51BF184CFBB1A776D08DCCBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A052A5E11042F1D3772C89648B93D9 /* MBCircularProgressBar-dummy.m in Sources */,
+				9F4CE01AEB93E5AE79BA6D8F96034708 /* MBCircularProgressBarLayer.m in Sources */,
+				602ABB6A6E3D2B8034C71C85F32B40DE /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF9E1FBF5D49CC3C19AD57AF0AFDAEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060CC5205AC3021495F0C33386CE3AE5 /* Pods-Find my AirpodsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1495FC9E22A692005A9F38B9F941C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50C8CB44D4FBC6B7C9CA2126E1F38E6 /* Pods-Find my Airpods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0019EF32B9DEEA6238D774D2E2A4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BD5613DD52E6F76C081F2691C2263E /* Pods-Find my AirpodsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11653DC842058FA136A388E710D9DD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 058D9CEA25394CA8571C15F53662E5B1 /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = 5EBDE2225CA8193B0FB850FC795150D0 /* PBXContainerItemProxy */;
+		};
+		549A4CA8D7A3F25C7251D4E5E3A340BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 8887782A89B377CA7620F79CD6A95097 /* MBCircularProgressBar */;
+			targetProxy = 378B7D90E149083ABF3C2AB176B020DE /* PBXContainerItemProxy */;
+		};
+		AD99E4D5AE9FC7A114576F5AE0ACC6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = AAFAB03C06CBAB2916F232BD071C0600 /* pop */;
+			targetProxy = 301890201E5281E3D95BC19082E03F3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B36DB40F27985A0283D1CAC5FF403DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFED5AA08323601FE6B08CC12220773 /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DC23F9A7DDEC8D9A7290932B9798BBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C5AC87BAB202A6BB202571F06BD62A /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A77DA1B1C5EF2521ECD060605922025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C5AC87BAB202A6BB202571F06BD62A /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		60690B39224A3A56DEB375CBD3E8649F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823CD4A81B19F549F0B6A09CF772A736 /* Pods-Find my AirpodsUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6D5007762406AA30BFD08768B9DB5E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510568CA08268FB9FDF8B286DE95681F /* Pods-Find my Airpods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		70BA3DD6827FCB6829B5894F3A8D2046 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9186BFD858A506F8DC51488624041D9 /* Pods-Find my AirpodsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		872CC403932AB7C27E990D9567E82724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C5AC87BAB202A6BB202571F06BD62A /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8C4ED288AA714542E30128D190E903E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4756326417CC5767E57B88BDE236AC61 /* Pods-Find my Airpods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9094B96E28DC57C29C81C1021E88F24B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFED5AA08323601FE6B08CC12220773 /* pop.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A435E3C35B2666C25C53422D898980A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB89A25A3A505A81128EDF9A41EBCB53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AF3D6101F05F4609246ACC30A3D4BF /* Pods-Find my AirpodsUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F03881AB212B9F96B1A25C63EB77D221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C5AC87BAB202A6BB202571F06BD62A /* MBCircularProgressBar.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F2C4F47FC8AD76198661C5EFDE751899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD9946011365066E2A553BA916BBC531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BEDEC92F13741FF2A1C5AC3717FD665 /* Pods-Find my AirpodsTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD9B227E42EBAC0B8CFC33D83EEEFA5 /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B36DB40F27985A0283D1CAC5FF403DC /* Debug */,
+				9094B96E28DC57C29C81C1021E88F24B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A435E3C35B2666C25C53422D898980A7 /* Debug */,
+				F2C4F47FC8AD76198661C5EFDE751899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9F462629C203CA4E09B7146C94FE6C /* Build configuration list for PBXNativeTarget "Pods-Find my Airpods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4ED288AA714542E30128D190E903E4 /* Debug */,
+				6D5007762406AA30BFD08768B9DB5E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CA71027D8B19A4E2E400D761741A67B /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872CC403932AB7C27E990D9567E82724 /* Debug */,
+				2DC23F9A7DDEC8D9A7290932B9798BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8489FA33274580828E0FA3BBE69031 /* Build configuration list for PBXNativeTarget "Pods-Find my AirpodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB89A25A3A505A81128EDF9A41EBCB53 /* Debug */,
+				60690B39224A3A56DEB375CBD3E8649F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54C70AB7516FCDC5E382B7C1F7D694E /* Build configuration list for PBXNativeTarget "Pods-Find my AirpodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD9946011365066E2A553BA916BBC531 /* Debug */,
+				70BA3DD6827FCB6829B5894F3A8D2046 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABE8C26B866F8D5F351A2FF72FDF6A1 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03881AB212B9F96B1A25C63EB77D221 /* Debug */,
+				4A77DA1B1C5EF2521ECD060605922025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

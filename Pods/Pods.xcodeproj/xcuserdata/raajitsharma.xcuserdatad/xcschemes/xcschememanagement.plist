@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MBCircularProgressBar-MBCircularProgressBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MBCircularProgressBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Find my Airpods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Find my AirpodsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Find my AirpodsUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>058D9CEA25394CA8571C15F53662E5B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8887782A89B377CA7620F79CD6A95097</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88D08EEBCEABBDA3DDA2D2F105FB3291</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AAFAB03C06CBAB2916F232BD071C0600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB918A813B1A116DBDC529D9878DDD7A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB44DF201BD7BFD27AF52A44E024B3E2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

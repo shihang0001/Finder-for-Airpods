@@ -1,0 +1,15 @@
+PODS:
+  - MBCircularProgressBar (0.3.5)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - MBCircularProgressBar
+  - pop (~> 1.0)
+
+SPEC CHECKSUMS:
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: 26147899bf3ed0652232d6cbc1ee08ee7f4eb908
+
+COCOAPODS: 1.2.0
