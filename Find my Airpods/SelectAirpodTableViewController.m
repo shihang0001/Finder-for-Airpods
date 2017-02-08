@@ -254,7 +254,6 @@
     if (buttonIndex == 0 && alertView.tag == AIRPODSQUESTION_ID) {
         //When clicked No
         
-        
     }
     else if (buttonIndex == 1 && alertView.tag == AIRPODSQUESTION_ID){
         //When clicked Yes,
