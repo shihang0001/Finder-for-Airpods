@@ -57,7 +57,7 @@
     
     //NSLog(uuid);
 
-    //Loop if not -- This can be dont better
+    //Loop if not -- This can be done better
     for (BLDataModel *bl in [_bleItems reverseObjectEnumerator])
     {
         //If the UUID does exists then return method
@@ -97,15 +97,13 @@
 
 
 /** centralManagerDidUpdateState is a required protocol method.
- *  Usually, you'd check for other states to make sure the current device supports LE, is powered on, etc.
- *  In this instance, we're just using it to wait for CBCentralManagerStatePoweredOn, which indicates
- *  the Central is ready to be used.
+
  */
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central
 {
     if (central.state != CBCentralManagerStatePoweredOn) {
         // In a real app, you'd deal with all the states correctly
-        
+        //HA!
         return;
     }
     
