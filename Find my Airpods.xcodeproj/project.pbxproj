@@ -36,6 +36,10 @@
 		33BA4FAC1E098C21004A562B /* AirpodsCaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA4FAB1E098C21004A562B /* AirpodsCaseViewController.m */; };
 		33BA4FB01E0A2826004A562B /* FinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA4FAF1E0A2826004A562B /* FinderViewController.m */; };
 		33BA4FB41E0AD298004A562B /* FinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA4FB31E0AD298004A562B /* FinalViewController.m */; };
+		9DB515F61E4CB3170050721C /* airpods-right-part-updated-v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB515F51E4CB3170050721C /* airpods-right-part-updated-v2.png */; };
+		9DB515F81E4CB31D0050721C /* airpods-left-part-updated-v2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB515F71E4CB31D0050721C /* airpods-left-part-updated-v2.png */; };
+		9DB515FB1E4CB9530050721C /* airpods-left-part-updated-v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB515F91E4CB9530050721C /* airpods-left-part-updated-v3.png */; };
+		9DB515FC1E4CB9530050721C /* airpods-right-part-updated-v3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB515FA1E4CB9530050721C /* airpods-right-part-updated-v3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +110,10 @@
 		490C5815F27DE95D7EDDE7D3 /* Pods-Find my AirpodsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find my AirpodsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find my AirpodsTests/Pods-Find my AirpodsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8075D6992074F7ACF9643732 /* Pods-Find my Airpods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find my Airpods.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find my Airpods/Pods-Find my Airpods.release.xcconfig"; sourceTree = "<group>"; };
 		97A56E1DC735A5CB29E952F4 /* Pods-Find my AirpodsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find my AirpodsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find my AirpodsUITests/Pods-Find my AirpodsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DB515F51E4CB3170050721C /* airpods-right-part-updated-v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airpods-right-part-updated-v2.png"; sourceTree = "<group>"; };
+		9DB515F71E4CB31D0050721C /* airpods-left-part-updated-v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airpods-left-part-updated-v2.png"; sourceTree = "<group>"; };
+		9DB515F91E4CB9530050721C /* airpods-left-part-updated-v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airpods-left-part-updated-v3.png"; sourceTree = "<group>"; };
+		9DB515FA1E4CB9530050721C /* airpods-right-part-updated-v3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airpods-right-part-updated-v3.png"; sourceTree = "<group>"; };
 		C2A56CDC494583415C66408B /* Pods-Find my AirpodsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find my AirpodsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Find my AirpodsTests/Pods-Find my AirpodsTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5D79F5F4203B42B4669F9C5 /* Pods-Find my Airpods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Find my Airpods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Find my Airpods/Pods-Find my Airpods.debug.xcconfig"; sourceTree = "<group>"; };
 		C76A321ECE25B4F8EE8F81F0 /* libPods-Find my AirpodsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Find my AirpodsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -265,6 +273,10 @@
 				339B79231E0BAC510060D9BB /* airpods logo.png */,
 				336B02541E32615C003BD78A /* airpods-left-part-updated.png */,
 				336B024E1E324FB7003BD78A /* airpods-bottom-part-updated.png */,
+				9DB515F51E4CB3170050721C /* airpods-right-part-updated-v2.png */,
+				9DB515F91E4CB9530050721C /* airpods-left-part-updated-v3.png */,
+				9DB515FA1E4CB9530050721C /* airpods-right-part-updated-v3.png */,
+				9DB515F71E4CB31D0050721C /* airpods-left-part-updated-v2.png */,
 				33BA4FA31E08433F004A562B /* airpods-left.png */,
 				33BA4FA41E08433F004A562B /* airpods-right.png */,
 				338966841E3A5B6500622A9D /* airpods-right-part-updated.png */,
@@ -417,12 +429,16 @@
 				33BA4F701E078759004A562B /* Assets.xcassets in Resources */,
 				338966851E3A5B6500622A9D /* airpods-right-part-updated.png in Resources */,
 				336B024F1E324FB7003BD78A /* airpods-bottom-part-updated.png in Resources */,
+				9DB515FB1E4CB9530050721C /* airpods-left-part-updated-v3.png in Resources */,
 				33BA4FA51E08433F004A562B /* airpods-left.png in Resources */,
 				336B024D1E2F26CB003BD78A /* airpods-top-part-updated.png in Resources */,
 				33BA4FA11E08390F004A562B /* airpods-bottom-part.png in Resources */,
+				9DB515FC1E4CB9530050721C /* airpods-right-part-updated-v3.png in Resources */,
 				33BA4FA61E08433F004A562B /* airpods-right.png in Resources */,
+				9DB515F81E4CB31D0050721C /* airpods-left-part-updated-v2.png in Resources */,
 				339B79241E0BAC510060D9BB /* airpods logo.png in Resources */,
 				336B02551E32615C003BD78A /* airpods-left-part-updated.png in Resources */,
+				9DB515F61E4CB3170050721C /* airpods-right-part-updated-v2.png in Resources */,
 				33BA4F6E1E078759004A562B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

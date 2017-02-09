@@ -86,14 +86,14 @@
                                             <constraint firstAttribute="width" constant="240" id="UBO-nQ-AbB"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="a7l-fX-Sjf">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="a7l-fX-Sjf">
                                         <rect key="frame" x="67" y="251" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="a7l-fX-Sjf" secondAttribute="height" multiplier="15:22" id="CpR-hC-vEe"/>
                                             <constraint firstAttribute="width" constant="240" id="YKs-6v-A2n"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="6rC-hL-Ppd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="6rC-hL-Ppd">
                                         <rect key="frame" x="67" y="226" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="29x-r1-3sm"/>
@@ -277,14 +277,14 @@
                                             <constraint firstAttribute="width" constant="240" id="obj-My-hiy"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="KmM-Rl-jFz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="KmM-Rl-jFz">
                                         <rect key="frame" x="67" y="324" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KmM-Rl-jFz" secondAttribute="height" multiplier="15:22" id="TDZ-w6-ZgF"/>
                                             <constraint firstAttribute="width" constant="240" id="ce4-lv-GKg"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="p8H-UK-wjM">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="p8H-UK-wjM">
                                         <rect key="frame" x="67" y="324" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="FEL-Zk-WNv"/>
@@ -476,14 +476,14 @@
                                             <constraint firstAttribute="width" constant="240" id="KFl-2E-WIm"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="RWo-iX-hXT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="RWo-iX-hXT">
                                         <rect key="frame" x="67" y="251" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="WR9-yC-Mfc"/>
                                             <constraint firstAttribute="width" secondItem="RWo-iX-hXT" secondAttribute="height" multiplier="15:22" id="oAb-SR-2Ef"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="txQ-hQ-vqT">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="txQ-hQ-vqT">
                                         <rect key="frame" x="67" y="251" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="jFa-NJ-elW"/>
@@ -629,14 +629,14 @@
                                             <constraint firstAttribute="width" constant="240" id="XYS-VB-lGA"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-GZ-aPk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="YlH-GZ-aPk">
                                         <rect key="frame" x="67" y="324" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="YlH-GZ-aPk" secondAttribute="height" multiplier="15:22" id="YPS-vA-4wC"/>
                                             <constraint firstAttribute="width" constant="240" id="f2M-6Z-yOa"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="1i2-Ll-V76">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="1i2-Ll-V76">
                                         <rect key="frame" x="67" y="324" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="asc-5s-mc7"/>
@@ -806,14 +806,14 @@
                                             <constraint firstAttribute="width" secondItem="jeT-gy-a3I" secondAttribute="height" multiplier="15:22" id="isw-ah-XWu"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="bbp-OF-dY5">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="bbp-OF-dY5">
                                         <rect key="frame" x="67" y="327" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="QOB-Wc-XKx"/>
                                             <constraint firstAttribute="width" secondItem="bbp-OF-dY5" secondAttribute="height" multiplier="15:22" id="kHL-9a-WQg"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="rGq-ly-2Ks">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="rGq-ly-2Ks">
                                         <rect key="frame" x="67" y="327" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="rGq-ly-2Ks" secondAttribute="height" multiplier="15:22" id="0nX-4l-0b2"/>
@@ -979,14 +979,14 @@
                                             <constraint firstAttribute="width" secondItem="Okv-Zh-rGX" secondAttribute="height" multiplier="15:22" id="mZN-sd-Qha"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="SVM-SE-nFf">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-right-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="SVM-SE-nFf">
                                         <rect key="frame" x="67" y="251" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="H3U-Lr-HCM"/>
                                             <constraint firstAttribute="width" secondItem="SVM-SE-nFf" secondAttribute="height" multiplier="15:22" id="Q5j-Ll-yHR"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-Y1-0Wt">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="airpods-left-part-updated-v3.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cxa-Y1-0Wt">
                                         <rect key="frame" x="67" y="226" width="240" height="352"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="240" id="4qI-ms-wMX"/>
@@ -1155,8 +1155,8 @@
     </scenes>
     <resources>
         <image name="airpods-bottom-part-updated.png" width="700" height="940"/>
-        <image name="airpods-left-part-updated.png" width="700" height="940"/>
-        <image name="airpods-right-part-updated.png" width="700" height="940"/>
+        <image name="airpods-left-part-updated-v3.png" width="700" height="940"/>
+        <image name="airpods-right-part-updated-v3.png" width="700" height="940"/>
         <image name="airpods-top-part-updated.png" width="700" height="940"/>
         <image name="airpods-top-part.png" width="700" height="940"/>
         <image name="black-dot.jpg" width="151" height="154"/>

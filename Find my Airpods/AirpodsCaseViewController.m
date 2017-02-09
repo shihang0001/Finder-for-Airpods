@@ -41,18 +41,18 @@
 
 -(void)setupLabels{
     if (_isLeftPodMissing && _isRightPodMissing){
-        _titleText.text = @"Please open Airpods case.";
-        _subtitleText.text = @"Use a device in which the Airpods are paired to. Walk slowly around the area you last saw it. Place found Airpod back in case to find the next missing Airpod.";
+        _titleText.text = @"Please open Pods case.";
+        _subtitleText.text = @"Use a device in which the Pods are paired to. Walk slowly around the area you last saw it. Place found Pod back in case to find the next missing Pod.";
     }
     else if (_isLeftPodMissing)
     {
-        _titleText.text = @"Dock right Airpod and close case.";
-        _subtitleText.text = @"Use a device in which the Airpods are paired to. Walk slowly around the area you last saw it. Do not take right Airpod out from case whilst trying to find left Airpod.";
+        _titleText.text = @"Dock right Pod and close case.";
+        _subtitleText.text = @"Use a device in which the Pods are paired to. Walk slowly around the area you last saw it. Do not take right Pod out from case whilst trying to find left Pod.";
     }
     else if (_isRightPodMissing)
     {
-        _titleText.text = @"Dock left Airpod and close case.";
-        _subtitleText.text = @"Use a device in which the Airpods are paired to. Walk slowly around the area you last saw it. Do not take left Airpod out from case whilst trying to find right Airpod.";
+        _titleText.text = @"Dock left Pod and close case.";
+        _subtitleText.text = @"Use a device in which the Pods are paired to. Walk slowly around the area you last saw it. Do not take left Pod out from case whilst trying to find right Pod.";
     }
 }
 

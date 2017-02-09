@@ -85,7 +85,7 @@
     
     UIAlertView *alert = [[UIAlertView alloc]
                           initWithTitle:@"Are you sure?"
-                         message:@"It's better to keep your Airpods paired, it will be easier to find if you do lose them."
+                         message:@"It's better to keep your Pods paired, it will be easier to find if you do lose them."
                           delegate:self
                          cancelButtonTitle:@"No"                                  otherButtonTitles:@"Yes", nil];
     alert.tag = UNLINKAIRPODS_QUESTION;
