@@ -3,6 +3,8 @@ An app released in the beginning of January to help find your missing Airpods us
 
 The app was pulled a few days later, and now that the heat of the media has settled the project is now open-source.
 
+[Follow me on Twitter @deucksapps](https://twitter.com/deucksapps)
+
 Some links on more information about the app.
 
 https://www.macrumors.com/2017/01/06/finder-for-airpods-app/
