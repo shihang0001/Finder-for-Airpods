@@ -83,11 +83,11 @@
     }
     else if (_isRightPodActive)
     {
-        _airpodsStatus.text = @"Right Pods is missing.";
+        _airpodsStatus.text = @"Right Pod is missing.";
     }
     else if (_isLeftPodActive)
     {
-        _airpodsStatus.text = @"Left Pods is missing.";
+        _airpodsStatus.text = @"Left Pod is missing.";
     }
     
 }
